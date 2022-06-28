@@ -1,360 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome To Kerala</title>
-  <link href="css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  
+	<title>Kerala</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
-<!-- Start of header section -->
-<nav class="navbar sticky-top navbar-expand-lg bg-success">
-  <div class="container">
-    <a class="navbar-brand" href="#">Kerala</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
- <i class="fas fa-bars"></i>
-</button>
+	
+<div class="container-fluid">
+	<!-- Start of Navbar Section -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">Kerala</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-light" href="#">Districts</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-light" href="login.html">Login</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-light" href="#">Register</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	  <!-- End of Navbar Section -->
+	  <!-- Start of Home Section -->
+	  <video muted id="myVideo" autoplay loop style="width: 100%; height: 100%;">
+        <source src="India - Welcome to Kerala ! [CINEMATIC TRAVEL FILM].mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto w-100 justify-content-end">
-        <li class="nav-item active">
-          <a class="button nav-link text-light" href="#home">Home </a>
-        </li>
-        <li class="nav-item">
-          <a class="button nav-link text-light" href="#about">About</a>
-          </li>
-             
-              <li class="nav-item ">
-                <a class="button nav-link text-light" href="#login">Sign Up</a>
-              </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- End of header section -->
-<!-- Start of Home section -->
-<section id="home" class="vh-100">
-
-
-    <div class="container">
-
-    
-      <hr class="mt-2 mb-5">
-    
-      <div class="row text-center text-lg-start">
-    
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#kottayam" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/kottayam-image.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#idukki" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/idukki-big.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/kollam-big.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#tvm" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/thiruvananthapuram-big.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/Kannur-Cannanore-big.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#ernakulam" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/Kochi-big.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/kasaragod-big-1.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/Calicut-big.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/Pathanamthitta-big.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/Thrissur-big.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#palakkad" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/palakkad.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/Wayanad-big.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/alappuzha-alleppey.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/malappuram-big.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    
-    </div>
-</section>
-<!-- End of Home Section -->
-<!-- Start of About Section -->
-<section id="about" class="mx-4">
-  <h2 class="text-success text-lg-start text-center">All About Kerala</h2>
-  <div class="mb-6 text-center "id="about1">
-  <p>Kerala, southwestern coastal state of India. It is a small state, constituting only about 1 percent of the total area of the country. Kerala stretches for about 360 miles (580 km) along the Malabar Coast, varying in width from roughly 20 to 75 miles (30 to 120 km). It is bordered by the states of Karnataka (formerly Mysore) to the north and Tamil Nadu to the east and by the Arabian Sea to the south and west; it also surrounds Mahe, a segment of the state of Puducherry, on the northwestern coast. The capital is Thiruvananthapuram (Trivandrum).</p>
-  <p>Although isolated from the Indian interior by the mountainous belt of the Western Ghats, Kerala has been exposed to many foreign influences via its long coastline; consequently, the state has developed a unique culture within the subcontinent, not only with a diverse religious tradition but also with its own language, Malayalam. Also notable is the high social status that continues to be accorded to women of Kerala, owing to the former strength of a matrilineal kinship system. Area 15,005 square miles (38,863 square km). Pop. (2011) 33,387,677.
-</p>
 </div>
-<div class="mb-6 text-center " id="about2">
-  <p>Kerala, southwestern coastal state of India. It is a small state, constituting only about 1 percent of the total area of the country. Kerala stretches for about 360 miles (580 km) along the Malabar Coast, varying in width from roughly 20 to 75 miles (30 to 120 km). It is bordered by the states of Karnataka (formerly Mysore) to the north and Tamil Nadu to the east and by the Arabian Sea to the south and west; it also surrounds Mahe, a segment of the state of Puducherry, on the northwestern coast. The capital is Thiruvananthapuram (Trivandrum).</p>
-  <p>Although isolated from the Indian interior by the mountainous belt of the Western Ghats, Kerala has been exposed to many foreign influences via its long coastline; consequently, the state has developed a unique culture within the subcontinent, not only with a diverse religious tradition but also with its own language, Malayalam. Also notable is the high social status that continues to be accorded to women of Kerala, owing to the former strength of a matrilineal kinship system. Area 15,005 square miles (38,863 square km). Pop. (2011) 33,387,677.
-</p>
-</div>
-</section>
-<!-- End of About section -->
-<!-- start of District Section -->
-<section id="kottayam">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <img src="images/kottayam.jpg" class="img-fluid rounded-circle">
-      
-   </div>
-   <div class="col-lg-8 col-md-8 col-sm-12 desc">
-     
-    <h3>kottayam</h3>
-    <p>
-      Kottayam is the one of the most destinations of Kerala state India. Kottayam is the country of unique characteristics. Panoramic backwater is spreading, places associated with lush paddy fields, mountainous terrains, hill stations, extensive rubber gardens, many legends and a fully literate people have given the envy of Kottayam district.
-  </p>
-  <p>
-      This place, having the numbers of beautiful places of Kerala in which temples, gardens, waterfalls, hill station and backwaters are included. You can reach easily to this place because the transportation is available from all of the places in Kerala. You can also book cabs and taxi for the transportation.
-    </p>
-   </div>
-  </div>
-</section>
-<!-- En -->
-<section id="ernakulam" class="mt-3">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <img src="images/Fort-Kochi.webp" class="img-fluid rounded-circle">
-      
-   </div>
-   <div class="col-lg-8 col-md-8 col-sm-12 desc">
-     
-    <h3>Ernakulam</h3>
-    <p>
-      Kochi (Cochin) is the city lies in the southern part in the Indian map and stated in the Kerala state, but on behalf of Kerala, it is in the northern part of the state nearby sea beach. Kochi is also known as Cochin. It is a major port city of India by the Arabian Sea.
-
- </p>
-<p>
-      There are many of the Kerala destinations that the tourist like so much. One of the most destination place is Willingdon Island, Chinese Fishing Nets, Fort Kochi, Marine Drive, Bolgatty palace etc. One of the most famous thing about the Kochi is their international flightport. That gives facility to easily move there. These are the things that make Kochi Kerala tourism more special in all over the India.
-    </p>
-   </div>
-  </div>
-</section>
-<section id="idukki" class="mt-3">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <img src="images/idukki.jpg" class="img-fluid rounded-circle">
-      
-   </div>
-   <div class="col-lg-8 col-md-8 col-sm-12 desc">
-     
-    <h3>  Idukki</h3>
-    <p>
-      Kottayam is the one of the most destinations of Kerala state India. Kottayam is the country of unique characteristics. Panoramic backwater is spreading, places associated with lush paddy fields, mountainous terrains, hill stations, extensive rubber gardens, many legends and a fully literate people have given the envy of Kottayam district.
-  </p>
-  <p>
-      This place, having the numbers of beautiful places of Kerala in which temples, gardens, waterfalls, hill station and backwaters are included. You can reach easily to this place because the transportation is available from all of the places in Kerala. You can also book cabs and taxi for the transportation.
-    </p>
-   </div>
-  </div>
-</section>
-<section id="palakkad" class="mt-3">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <img src="images/palakkad-1.jpg" class="img-fluid rounded-circle">
-      
-   </div>
-   <div class="col-lg-8 col-md-8 col-sm-12 desc">
-     
-    <h3>Palakkad</h3>
-    <p>
-      Palakkad is the best known place in the Kerala state due to its evergreen nature and long lasting beauty. There are many of the visiting places that makes increase the beauty of this place like Fort, waterfalls, hills, mountains, rivers, lake and temples.
-     </p>
-     <p>
-      The name of the town is Palakkad is based the old and historical fort named as Palakkad Fort. This fort is used during the time of Tipu Sultan. The large space between the fort and Palakkad town is enclosed by the ground area. This is said that here the tipu sultan trained their army of elephants and horses.
-    </p>
-   </div>
-  </div>
-</section>
-<section id="tvm" class="mt-3">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <img src="images/thiruvananthapuram.jpg" class="img-fluid rounded-circle">
-      
-   </div>
-   <div class="col-lg-8 col-md-8 col-sm-12 desc">
-     
-    <h3>Thiruvananthapuram</h3>
-    <p>
-      Thiruvananthapuram is the largest city of the Kerala state. It is also the capital of Kerala and sometime calling by the name Trivandrum.
-  </p>
-  <p>
-      It is the most popular city of the Kerala as well as the India. Trivandrum is the 5th most populous urban city of the Kerala. It is also the major hub for the IT section that contributes mostly software exports.
-    </p>
-    <p>  
-      One more famous place in Trivandrum is the Techno Park that is the largest technology park in all over Asia in terms of area.
-    </p>
-   </div>
-  </div>
-</section>
-<!-- End of district section -->
-<!-- Start of login and sign up -->
-<section id="login" class="vh-100">
-  <div class="container-fluid h-custom">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-lg-5 col-md-4 col-sm-12 ">
-        <form>
-          <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-            <p class="lead fw-normal mb-0 me-3">Sign in with</p>
-            <button type="button" class="btn btn-success btn-floating mx-1">
-              <i class="fab fa-facebook-f"></i>
-            </button>
-
-            <button type="button" class="btn btn-success btn-floating mx-1">
-              <i class="fab fa-twitter"></i>
-            </button>
-
-            <button type="button" class="btn btn-success btn-floating mx-1">
-              <i class="fab fa-linkedin-in"></i>
-            </button>
-          </div>
-
-          <div class="divider d-flex align-items-center my-4">
-            <p class="text-center fw-bold mx-3 mb-0">Or</p>
-          </div>
-
-          <!-- Email input -->
-          <div class="form-outline mb-4">
-            <input type="email" id="form3Example3" class="form-control form-control-lg"
-              placeholder="Enter a valid email address" />
-            <label class="form-label" for="form3Example3">Email address</label>
-          </div>
-
-          <!-- Password input -->
-          <div class="form-outline mb-3">
-            <input type="password" id="form3Example4" class="form-control form-control-lg"
-              placeholder="Enter password" />
-            <label class="form-label" for="form3Example4">Password</label>
-          </div>
-
-          <div class="d-flex justify-content-between align-items-center">
-            <!-- Checkbox -->
-            <div class="form-check mb-0">
-              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-              <label class="form-check-label" for="form2Example3">
-                Remember me
-              </label>
-            </div>
-            <a href="#!" class="text-body">Forgot password?</a>
-          </div>
-
-          <div class="text-center text-lg-start mt-4 pt-2">
-            <button type="button" class="mb-2 btn btn-success btn-lg"
-              style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
-          
-          </div>
-
-        </form>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 ">
-        <form>
-          <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-            <p class="lead fw-normal mb-0 me-3">Sign up with</p>
-            <button type="button" class="btn btn-success btn-floating mx-1">
-              <i class="fab fa-facebook-f"></i>
-            </button>
-
-            <button type="button" class="btn btn-success btn-floating mx-1">
-              <i class="fab fa-twitter"></i>
-            </button>
-
-            <button type="button" class="btn btn-success btn-floating mx-1">
-              <i class="fab fa-linkedin-in"></i>
-            </button>
-          </div>
-
-          <div class="divider d-flex align-items-center my-4">
-            <p class="text-center fw-bold mx-3 mb-0">Or</p>
-          </div>
-
-          <!-- Email input -->
-          <div class="form-outline mb-4">
-            <input type="email" id="form3Example3" class="form-control form-control-lg"
-              placeholder="Enter a valid email address" />
-            <label class="form-label" for="form3Example3">Email address</label>
-          </div>
-
-          <!-- Password input -->
-          <div class="form-outline mb-3">
-            <input type="password" id="form3Example4" class="form-control form-control-lg"
-              placeholder="Enter password" />
-            <label class="form-label" for="form3Example4">Password</label>
-          </div>
-     
-
-          <div class="d-flex justify-content-between align-items-center">
-            <!-- Checkbox -->
-            <div class="form-check mb-0">
-              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-              <label class="form-check-label" for="form2Example3">
-                I have accepted the terms and conditions.
-              </label>
-            </div>
-            
-          </div>
-
-          <div class="text-center text-lg-start mt-4 pt-2">
-            <button type="button" class="mb-2 btn btn-success btn-lg"
-              style="padding-left: 2.5rem; padding-right: 2.5rem;">Register</button>
-         
-             
-          </div>
-
-        </form>
-      </div>
-    </div>
-  </div>
-   <div
-    class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-success">
-
-  </div> 
-</section>
-<!-- End of Login and Sign up Section -->
 </body>
 </html>
